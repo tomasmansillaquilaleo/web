@@ -1,0 +1,68 @@
+/* Estilos básicos para centrar y dar formato a la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #494444;
+}
+
+.contenedor {
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #2c2a2a;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Estilo para "Comuna de Villa La Bolsa" */
+.titulo-comuna {
+    font-size: 1.5em;
+    color: #34db4d;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.0em;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+p {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 1em;
+    color: #000000;
+    background-color: #34db4d;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo para la imagen en la esquina dentro del contenedor */
+.imagen-esquina {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 70px;
+    height: auto;
+}
